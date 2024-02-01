@@ -13,10 +13,6 @@ public class Canvas extends JPanel {
     private final int pixelSize = 10;
     static boolean[][] filledPixels = new boolean[gridHeight][gridWidth];
 
-    static int counterX = 0;
-    static int counterY = 0;
-
-
     public Canvas() {
         setPreferredSize(new Dimension(gridWidth * pixelSize, gridHeight * pixelSize));
 
